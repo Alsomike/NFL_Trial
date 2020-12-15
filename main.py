@@ -61,5 +61,5 @@ header = ['Team', 'Wins', 'Losses', 'Win%']
 
 tuples = list(zip(teams, wins, losses))
 # print(tuples)
-
+print()
 print(tabulate(tuples, headers=header ))
